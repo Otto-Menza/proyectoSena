@@ -8,6 +8,7 @@ class ProyectoSenaApplicationTests {
 
 	@Test
 	void contextLoads() {
+		ApplicationContext context = assertNotNull(context, "La aplicación no se cargó correctamente.");
 	}
 
 }
